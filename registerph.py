@@ -46,6 +46,8 @@ def main():
             with open('passwords.py', 'w', encoding='utf-8') as f:
                 pass
             main()  # summon the registration again
+        elif a.lower() == 'sd':
+            print(f'Profile:\n First name: {log_name}\n Last name: {log_name1}\n Age: {log_age}')
         elif a.lower() == 'passchange':
             from passwords import log_pass, log_name, log_name1, log_age
 
