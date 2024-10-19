@@ -36,6 +36,7 @@ def main():
         print()
         print('--------------------------')
         print('Commands:\n')
+        print("'sd' - show data")
         print("'rereg' - re-registration")
         print("'passchange' - change password'")
         print("'exit' - shutting down")
